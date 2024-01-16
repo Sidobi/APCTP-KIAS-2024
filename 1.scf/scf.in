@@ -16,7 +16,7 @@
     ibrav= 0,
     nat= 2, ntyp= 1,
 !   nbnd =40
-    ecutwfc = 80.0, ecutrho = 640.0,
+    ecutwfc = 40.0, ecutrho = 160.0,
     occupations = 'smearing',
     degauss = 0.0019
     smearing = 'gaussian'
