@@ -1,0 +1,5 @@
+&BANDS
+ prefix = 'Si'
+ outdir = './wavefunc'
+ filband = 'band.plot'
+/

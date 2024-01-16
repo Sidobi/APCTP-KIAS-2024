@@ -1,0 +1,6 @@
+&DOS
+  prefix='Si'
+  outdir = './wavefunc'
+  DeltaE =0.05   ! eV
+  degauss = 0.01  ! Ry
+/

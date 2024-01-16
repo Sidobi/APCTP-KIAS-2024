@@ -1,0 +1,24 @@
+--
+&inputph
+    prefix='Si',
+  epsil    = .false.,
+  fildyn   = 'Si.dyn',
+  outdir='./wavefunc'
+  ldisp    = .false.
+  trans    = .true.,
+  tr2_ph   =  1.0d-14,
+! nmix_ph = 6
+  alpha_mix(1)= 0.2
+  alpha_mix(2)= 0.2
+  alpha_mix(3)= 0.2
+  alpha_mix(4)= 0.2
+  alpha_mix(5)= 0.2
+  alpha_mix(6)= 0.2
+  alpha_mix(7)= 0.2
+  alpha_mix(8)= 0.2
+  alpha_mix(9)= 0.2
+  alpha_mix(10)= 0.2
+  alpha_mix(11)= 0.2
+  alpha_mix(12)= 0.2
+ /
+0.0 0.0 0.0

@@ -1,0 +1,80 @@
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.6  Build 20220227 (id: 28877f3f32)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): libfabric provider: psm2
+[0] MPI startup(): File "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi_psm2.dat" not found
+[0] MPI startup(): Load tuning file: "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi.dat"
+[0] MPI startup(): File "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi.dat" not found
+[0] MPI startup(): Load tuning file: "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_clx-ap_shm-ofi.dat"
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       594510   n008.hpc   {0}
+[0] MPI startup(): 1       594511   n008.hpc   {1}
+[0] MPI startup(): 2       594512   n008.hpc   {2}
+[0] MPI startup(): 3       594513   n008.hpc   {3}
+[0] MPI startup(): 4       594514   n008.hpc   {4}
+[0] MPI startup(): 5       594515   n008.hpc   {5}
+[0] MPI startup(): 6       594516   n008.hpc   {6}
+[0] MPI startup(): 7       594517   n008.hpc   {7}
+[0] MPI startup(): 8       594518   n008.hpc   {8}
+[0] MPI startup(): 9       594519   n008.hpc   {9}
+[0] MPI startup(): 10      594520   n008.hpc   {10}
+[0] MPI startup(): 11      594521   n008.hpc   {11}
+[0] MPI startup(): 12      594522   n008.hpc   {12}
+[0] MPI startup(): 13      594523   n008.hpc   {13}
+[0] MPI startup(): 14      594524   n008.hpc   {14}
+[0] MPI startup(): 15      594525   n008.hpc   {15}
+[0] MPI startup(): I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.6.0
+[0] MPI startup(): I_MPI_MPIRUN=mpirun
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=slurm
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_DEBUG=5
+
+     Program DYNMAT v.7.2 starts on 16Jan2024 at 14:41:49 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    16 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      16
+     105216 MiB available memory on the printing compute node when the environment starts
+ 
+
+     Reading Dynamical Matrix from file Si.dyn
+     ...Force constants read
+     ...epsilon and Z* not read (not found on file)
+     A direction for q was not specified:TO-LO splitting will be absent
+
+     Polarizability (A^3 units)
+     multiply by 1.000000 for Clausius-Mossotti correction
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+
+     IR activities are in (D/A)^2/amu units
+
+# mode   [cm-1]    [THz]      IR
+    1      0.00    0.0000    0.0000
+    2      0.00    0.0000    0.0000
+    3      0.00    0.0000    0.0000
+    4    501.23   15.0265    0.0000
+    5    501.23   15.0265    0.0000
+    6    501.23   15.0265    0.0000
+ 
+     DYNMAT       :      0.00s CPU      0.01s WALL
+
+ 
+   This run was terminated on:  14:41:49  16Jan2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
